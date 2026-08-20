@@ -55,13 +55,32 @@ function refsPlugin(): Plugin {
   }
 }
 
+function spaFallback(): Plugin {
+  return {
+    name: 'spa-404',
+    closeBundle() {
+      const index = path.join(rootDir, 'dist', 'index.html')
+      if (fs.existsSync(index)) {
+        fs.copyFileSync(index, path.join(rootDir, 'dist', '404.html'))
+      }
+    },
+  }
+}
+
 export default defineConfig({
   base: '/',
-  plugins: [react(), tailwindcss(), refsPlugin()],
+  plugins: [react(), tailwindcss(), refsPlugin(), spaFallback()],
   resolve: {
     alias: { '@': path.resolve(rootDir, 'src') },
   },
   server: {
     fs: { allow: [rootDir, refsDir] },
+    proxy: {
+      '/logbook-api': {
+        target: 'https://logbook-admin-nine.vercel.app',
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/logbook-api/, ''),
+      },
+    },
   },
 })

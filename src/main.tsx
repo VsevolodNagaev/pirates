@@ -1,8 +1,9 @@
 import { lazy, StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { Layout } from '@/components/Layout'
 import { HomePage } from '@/pages/HomePage'
+import { MapPage } from '@/pages/MapPage'
 import { NewsArticlePage } from '@/pages/NewsArticlePage'
 import { NewsPage } from '@/pages/NewsPage'
 import './index.css'
@@ -16,20 +17,21 @@ function Fallback() {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || undefined}>
       <Suspense fallback={<Fallback />}>
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="news" element={<NewsPage />} />
             <Route path="news/:id" element={<NewsArticlePage />} />
+            <Route path="map" element={<MapPage />} />
             <Route path="rules" element={<RulesPage />} />
             <Route path="refs" element={<RefsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>
       </Suspense>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 

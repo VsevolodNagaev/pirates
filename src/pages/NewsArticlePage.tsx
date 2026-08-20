@@ -7,7 +7,7 @@ export function NewsArticlePage() {
   if (!item) return <Navigate to="/news" replace />
 
   return (
-    <article className="mx-auto max-w-2xl">
+    <article>
       <p className="text-xs uppercase tracking-[0.28em] text-gold">
         <Link to="/news" className="hover:underline">
           Новости

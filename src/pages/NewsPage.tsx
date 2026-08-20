@@ -3,7 +3,7 @@ import { formatNewsDate, sortedNews } from '@/content/news'
 
 export function NewsPage() {
   return (
-    <div className="mx-auto max-w-2xl">
+    <div>
       <header className="mb-8 border-b border-gold/25 pb-5">
         <p className="text-xs uppercase tracking-[0.28em] text-gold">Лента</p>
         <h1 className="mt-2 font-display text-4xl text-parchment">Новости проекта</h1>

@@ -124,3 +124,27 @@ body {
   white-space: nowrap;
   border: 0;
 }
+
+.leaflet-container {
+  background: #1a1410;
+  font-family: var(--font-sans);
+}
+
+.leaflet-popup-content-wrapper {
+  background: #f3ead6;
+  color: #2a241c;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.leaflet-popup-tip {
+  background: #f3ead6;
+}
+
+.leaflet-popup-content {
+  margin: 10px 14px;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
