@@ -13,6 +13,9 @@ RULES_SRC = WORK / "правила"
 RULES_DST = SITE / "src" / "content" / "rules"
 REFS_SRC = WORK / "референсы-фракций"
 CATALOG = SITE / "src" / "content" / "refs.json"
+REFS_PUBLIC = SITE / "public" / "refs"
+WEB_MAX_SIDE = 1280
+JPEG_QUALITY = 82
 
 FACTIONS = [
     {
@@ -123,11 +126,51 @@ def write_catalog() -> None:
     print("refs", sum(f["count"] for f in out), "images in catalog")
 
 
+def write_web_image(src: Path, dst: Path) -> None:
+    from PIL import Image
+
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(src) as im:
+        im = im.convert("RGB")
+        w, h = im.size
+        scale = WEB_MAX_SIDE / max(w, h)
+        if scale < 1:
+            im = im.resize((round(w * scale), round(h * scale)), Image.Resampling.LANCZOS)
+        im.save(dst, format="JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
+
+
+def copy_ref_images(catalog: list[dict]) -> None:
+    n = 0
+    bytes_out = 0
+    for faction in catalog:
+        folder = faction["folder"]
+        src_dir = REFS_SRC / folder
+        for group in faction["groups"]:
+            for item in group["items"]:
+                src = src_dir / item["file"]
+                if not src.exists():
+                    continue
+                dst = REFS_PUBLIC / folder / item["file"]
+                write_web_image(src, dst)
+                bytes_out += dst.stat().st_size
+                n += 1
+    print(f"web refs {n} files -> {REFS_PUBLIC} ({bytes_out / 1e6:.1f} MB, jpeg in .png names)")
+
+
 if __name__ == "__main__":
     if not RULES_SRC.exists():
         print("skip generate: no", RULES_SRC, "(ожидается соседняя папка проекта)")
         raise SystemExit(0)
     copy_rules()
-    write_catalog()
+    catalog = []
+    for meta in FACTIONS:
+        folder = REFS_SRC / meta["folder"]
+        groups = parse_sostav(folder)
+        n = sum(len(g["items"]) for g in groups)
+        catalog.append({**meta, "count": n, "groups": groups})
+    CATALOG.parent.mkdir(parents=True, exist_ok=True)
+    CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("refs", sum(f["count"] for f in catalog), "images in catalog")
+    copy_ref_images(catalog)
     print("rules ->", RULES_DST)
     print("catalog ->", CATALOG)

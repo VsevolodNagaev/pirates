@@ -2,8 +2,7 @@ export const LOGBOOK_ORIGIN = 'https://logbook-admin-nine.vercel.app'
 export const VENUE_ID = 'venue-1ypf'
 
 export function logbookApi(path: string) {
-  const base = import.meta.env.DEV ? '/logbook-api' : LOGBOOK_ORIGIN
-  return `${base}${path}`
+  return `/logbook-api${path}`
 }
 
 export function logbookAsset(path: string) {

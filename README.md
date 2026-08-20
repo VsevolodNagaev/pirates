@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-Откроется `http://localhost:5173/`. Картинки референсов Vite отдаёт напрямую с диска (`../референсы-фракций`) — в git они не входят (~570 МБ).
+Откроется `http://localhost:5173/`. Картинки референсов лежат в `public/refs/` (веб-копии из `../референсы-фракций`, без `_raw`). После смены исходников: `npm run generate`.
 
 ## Сборка
 
@@ -31,7 +31,7 @@ GitHub Pages: Settings → Pages → GitHub Actions / deploy `dist`. Для proj
 | Раздел | Источник |
 |---|---|
 | Правила | `../правила/*.md` → `src/content/rules/` |
-| Референсы | `../референсы-фракций/*/SOSTAV.md` → `src/content/refs.json` |
+| Референсы | `../референсы-фракций/*/SOSTAV.md` → `src/content/refs.json` + веб-картинки в `public/refs/` |
 | Новости | `src/content/news.ts` |
 
 После правок маркдауна: `npm run generate` или просто `npm run dev`.

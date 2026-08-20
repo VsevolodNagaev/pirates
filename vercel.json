@@ -1,0 +1,19 @@
+{
+  "headers": [
+    {
+      "source": "/refs/:path*.png",
+      "headers": [
+        { "key": "Content-Type", "value": "image/jpeg" },
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/logbook-api/:path*",
+      "destination": "https://logbook-admin-nine.vercel.app/:path*"
+    },
+    { "source": "/refs", "destination": "/index.html" },
+    { "source": "/((?!refs/|logbook-api/).*)", "destination": "/index.html" }
+  ]
+}
