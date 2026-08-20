@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
@@ -68,6 +69,14 @@ export function RulesPage() {
                         <a href={href} target="_blank" rel="noreferrer">
                           {children}
                         </a>
+                      )
+                    }
+                    const internal = href?.replace(/^\.\//, '/') ?? ''
+                    if (internal.startsWith('/')) {
+                      return (
+                        <Link to={internal} className="underline decoration-gold/60 underline-offset-4">
+                          {children}
+                        </Link>
                       )
                     }
                     return <span>{children}</span>
