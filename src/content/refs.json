@@ -1,0 +1,1813 @@
+[
+  {
+    "id": "rode",
+    "folder": "01-eskadra-Rode",
+    "name": "Эскадра Роде",
+    "short": "Каперы",
+    "blurb": "Каперская эскадра Карстена Роде. Ядро сюжета: охота, царский патент, соблазн сбыта мимо Нарвы.",
+    "count": 37,
+    "groups": [
+      {
+        "title": "Матросы",
+        "items": [
+          {
+            "file": "01-matros-01.png",
+            "role": "Матрос (вар. 1)"
+          },
+          {
+            "file": "02-matros-02.png",
+            "role": "Матрос (вар. 2)"
+          },
+          {
+            "file": "03-matros-03.png",
+            "role": "Матрос (вар. 3)"
+          },
+          {
+            "file": "04-matros-04.png",
+            "role": "Матрос (вар. 4) — бедный"
+          },
+          {
+            "file": "05-matros-05.png",
+            "role": "Матрос (вар. 5) — пьянчуга"
+          },
+          {
+            "file": "08-yunga.png",
+            "role": "Юнга"
+          }
+        ]
+      },
+      {
+        "title": "Командование и управление судном",
+        "items": [
+          {
+            "file": "09-kapitan.png",
+            "role": "Капитан"
+          },
+          {
+            "file": "10-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "11-pomoshchnik-mastera.png",
+            "role": "Помощник мастера"
+          },
+          {
+            "file": "12-shturman.png",
+            "role": "Штурман"
+          },
+          {
+            "file": "13-kormchiy.png",
+            "role": "Кормчий (рулевой, без палки)"
+          },
+          {
+            "file": "14-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "15-pomoshchnik-bocmana.png",
+            "role": "Помощник боцмана"
+          },
+          {
+            "file": "16-kvartirmeister.png",
+            "role": "Квартирмейстер"
+          }
+        ]
+      },
+      {
+        "title": "Паруса, артиллерия, оружие",
+        "items": [
+          {
+            "file": "17-parusnyi-master.png",
+            "role": "Парусный мастер"
+          },
+          {
+            "file": "18-kanonir.png",
+            "role": "Канонир (офицер орудийной палубы)"
+          },
+          {
+            "file": "19-pomoshchnik-kanonira.png",
+            "role": "Помощник канонира"
+          },
+          {
+            "file": "20-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "21-porokhovoy.png",
+            "role": "Пороховой кладовщик"
+          },
+          {
+            "file": "22-oruzheinik.png",
+            "role": "Оружейник"
+          },
+          {
+            "file": "24-soldat-alebarda.png",
+            "role": "Солдат (алебарда)"
+          }
+        ]
+      },
+      {
+        "title": "Снабжение и быт",
+        "items": [
+          {
+            "file": "25-kaznachey.png",
+            "role": "Казначей"
+          },
+          {
+            "file": "26-kladovshchik.png",
+            "role": "Кладовщик"
+          },
+          {
+            "file": "27-pisar.png",
+            "role": "Корабельный писарь"
+          },
+          {
+            "file": "28-kok.png",
+            "role": "Камбузник"
+          },
+          {
+            "file": "29-bondar.png",
+            "role": "Бондарь"
+          },
+          {
+            "file": "30-plotnik.png",
+            "role": "Плотник"
+          },
+          {
+            "file": "31-pomoshchnik-plotnika.png",
+            "role": "Помощник плотника"
+          }
+        ]
+      },
+      {
+        "title": "Медицина",
+        "items": [
+          {
+            "file": "32-khirurg.png",
+            "role": "Хирург"
+          },
+          {
+            "file": "33-tsiryulnik.png",
+            "role": "Цирюльник"
+          },
+          {
+            "file": "34-pomoshchnik-khirurga.png",
+            "role": "Помощник хирурга"
+          },
+          {
+            "file": "35-uchenik-khirurga.png",
+            "role": "Ученик хирурга"
+          }
+        ]
+      },
+      {
+        "title": "Торг, разведка, серый контур",
+        "items": [
+          {
+            "file": "36-kupets.png",
+            "role": "Купец"
+          },
+          {
+            "file": "37-kartograf.png",
+            "role": "Картограф"
+          },
+          {
+            "file": "38-shpion.png",
+            "role": "Шпион"
+          },
+          {
+            "file": "39-svyaznoy.png",
+            "role": "Связной"
+          },
+          {
+            "file": "40-kontrabandist.png",
+            "role": "Контрабандист"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bornholm",
+    "folder": "02-Bornholm",
+    "name": "Борнхольм",
+    "short": "Рённе",
+    "blurb": "Датский остров под управлением Любека. Фактическая база флотилии: ремонт, набор команды, сбыт призов.",
+    "count": 30,
+    "groups": [
+      {
+        "title": "Власть острова",
+        "items": [
+          {
+            "file": "01-fogt.png",
+            "role": "Фогт"
+          },
+          {
+            "file": "02-fogtsha.png",
+            "role": "Жена фогта"
+          },
+          {
+            "file": "14-tamozhennik.png",
+            "role": "Таможенник"
+          },
+          {
+            "file": "15-pastor.png",
+            "role": "Пастор (лютеранский)"
+          }
+        ]
+      },
+      {
+        "title": "Город Рённе и торг",
+        "items": [
+          {
+            "file": "03-ganzeyskiy-kupets.png",
+            "role": "Ганзейский купец"
+          },
+          {
+            "file": "04-byurger.png",
+            "role": "Бюргер"
+          },
+          {
+            "file": "05-byurgersha.png",
+            "role": "Бюргерша"
+          },
+          {
+            "file": "18-faktor.png",
+            "role": "Фактор (скупщик призов)"
+          }
+        ]
+      },
+      {
+        "title": "Море и гарнизон",
+        "items": [
+          {
+            "file": "06-rybak.png",
+            "role": "Рыбак"
+          },
+          {
+            "file": "07-rybachka.png",
+            "role": "Рыбачка"
+          },
+          {
+            "file": "08-soldat-garnizona.png",
+            "role": "Солдат гарнизона"
+          },
+          {
+            "file": "09-oficer-garnizona.png",
+            "role": "Офицер гарнизона"
+          },
+          {
+            "file": "10-lotsman.png",
+            "role": "Лоцман"
+          },
+          {
+            "file": "27-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "28-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "29-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "30-rulevoy.png",
+            "role": "Рулевой"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло и быт",
+        "items": [
+          {
+            "file": "11-plotnik-verfi.png",
+            "role": "Плотник верфи"
+          },
+          {
+            "file": "12-kabatcik.png",
+            "role": "Кабатчик"
+          },
+          {
+            "file": "13-kabatcica.png",
+            "role": "Кабатчица"
+          },
+          {
+            "file": "16-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "17-krestyanka.png",
+            "role": "Крестьянка"
+          },
+          {
+            "file": "19-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "20-bondar.png",
+            "role": "Бондарь"
+          }
+        ]
+      },
+      {
+        "title": "Порт и серый контур",
+        "items": [
+          {
+            "file": "21-gruzchik.png",
+            "role": "Грузчик"
+          },
+          {
+            "file": "22-kryuchnik.png",
+            "role": "Крючник"
+          },
+          {
+            "file": "23-prostitutka.png",
+            "role": "Проститутка"
+          },
+          {
+            "file": "24-vor-karmannik.png",
+            "role": "Вор-карманник"
+          },
+          {
+            "file": "25-kontrabandist.png",
+            "role": "Контрабандист"
+          },
+          {
+            "file": "26-pyanchuga.png",
+            "role": "Пьянчуга"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "narva",
+    "folder": "03-Narva",
+    "name": "Нарва",
+    "short": "Окно к царю",
+    "blurb": "Единственная русская ключевая локация полигона. Через наместника капер держит связь с царём и сдаёт десятину.",
+    "count": 40,
+    "groups": [
+      {
+        "title": "Горожане и смерды",
+        "items": [
+          {
+            "file": "01-smerd.png",
+            "role": "Смерд"
+          },
+          {
+            "file": "02-smerdka.png",
+            "role": "Смердка"
+          },
+          {
+            "file": "03-bogatyi-meshchanin.png",
+            "role": "Мещанин (богатый, не дворянин)"
+          },
+          {
+            "file": "04-bogataya-meshchanka.png",
+            "role": "Мещанка (богатая, не дворянка)"
+          },
+          {
+            "file": "05-znatnyi-muzhchina.png",
+            "role": "Дворянин"
+          },
+          {
+            "file": "06-znatnaya-zhenshchina.png",
+            "role": "Дворянка"
+          }
+        ]
+      },
+      {
+        "title": "Дума, приказ и город",
+        "items": [
+          {
+            "file": "07-boyarin.png",
+            "role": "Боярин"
+          },
+          {
+            "file": "08-boyarynya.png",
+            "role": "Боярыня"
+          },
+          {
+            "file": "09-okolnichiy.png",
+            "role": "Окольничий"
+          },
+          {
+            "file": "10-dyak.png",
+            "role": "Дьяк"
+          },
+          {
+            "file": "11-tysyatskiy.png",
+            "role": "Тысяцкий"
+          },
+          {
+            "file": "12-posadnik.png",
+            "role": "Посадник"
+          },
+          {
+            "file": "13-kaznachey.png",
+            "role": "Казначей"
+          },
+          {
+            "file": "14-voevoda.png",
+            "role": "Воевода"
+          },
+          {
+            "file": "15-golova-garnizona.png",
+            "role": "Голова гарнизона"
+          },
+          {
+            "file": "16-podyachiy.png",
+            "role": "Подьячий"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло, трактир, войско",
+        "items": [
+          {
+            "file": "17-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "18-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "19-kozhevennik.png",
+            "role": "Кожевенник"
+          },
+          {
+            "file": "20-traktirshchik.png",
+            "role": "Трактирщик"
+          },
+          {
+            "file": "21-kazak.png",
+            "role": "Казак"
+          },
+          {
+            "file": "22-strelets.png",
+            "role": "Стрелец"
+          },
+          {
+            "file": "34-kazak-chub.png",
+            "role": "Казак (вар. 2)"
+          }
+        ]
+      },
+      {
+        "title": "Церковь",
+        "items": [
+          {
+            "file": "23-episkop.png",
+            "role": "Епископ"
+          },
+          {
+            "file": "24-prikhodskoy-pop.png",
+            "role": "Приходской поп"
+          },
+          {
+            "file": "25-monakh.png",
+            "role": "Монах"
+          }
+        ]
+      },
+      {
+        "title": "Низы, торг, двор",
+        "items": [
+          {
+            "file": "26-kholop.png",
+            "role": "Холоп"
+          },
+          {
+            "file": "27-smerd.png",
+            "role": "Смерд (вар. 2)"
+          },
+          {
+            "file": "28-kupets.png",
+            "role": "Купец"
+          },
+          {
+            "file": "29-gonets.png",
+            "role": "Гонец"
+          },
+          {
+            "file": "30-sokolnichiy.png",
+            "role": "Сокольничий"
+          },
+          {
+            "file": "31-sotnik.png",
+            "role": "Сотник"
+          },
+          {
+            "file": "32-tiun.png",
+            "role": "Тиун"
+          },
+          {
+            "file": "33-stryapchiy.png",
+            "role": "Стряпчий"
+          },
+          {
+            "file": "35-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "36-krestyanka.png",
+            "role": "Крестьянка"
+          }
+        ]
+      },
+      {
+        "title": "Море",
+        "items": [
+          {
+            "file": "37-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "38-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "39-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "40-rulevoy.png",
+            "role": "Рулевой"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kopenhagen",
+    "folder": "04-Kopenhagen",
+    "name": "Копенгаген",
+    "short": "Датский двор",
+    "blurb": "Покровительство Фредерика II — и риск ареста. Двор, Зундская пошлина, дипломатия Северной семилетней войны.",
+    "count": 53,
+    "groups": [
+      {
+        "title": "Власть и двор",
+        "items": [
+          {
+            "file": "01-namestnik.png",
+            "role": "Наместник"
+          },
+          {
+            "file": "02-namestnica.png",
+            "role": "Жена наместника"
+          },
+          {
+            "file": "42-dvoryanin.png",
+            "role": "Дворянин"
+          },
+          {
+            "file": "43-dvoryanka.png",
+            "role": "Дворянка"
+          },
+          {
+            "file": "14-tamozhennik.png",
+            "role": "Таможенник"
+          },
+          {
+            "file": "15-pastor.png",
+            "role": "Пастор"
+          },
+          {
+            "file": "32-sudya.png",
+            "role": "Судья"
+          },
+          {
+            "file": "33-tyuremshchik.png",
+            "role": "Тюремщик"
+          },
+          {
+            "file": "34-palach.png",
+            "role": "Палач"
+          }
+        ]
+      },
+      {
+        "title": "Город и торг",
+        "items": [
+          {
+            "file": "03-datskiy-kupets.png",
+            "role": "Датский купец"
+          },
+          {
+            "file": "04-byurger.png",
+            "role": "Бюргер"
+          },
+          {
+            "file": "05-byurgersha.png",
+            "role": "Бюргерша"
+          },
+          {
+            "file": "18-faktor.png",
+            "role": "Фактор"
+          },
+          {
+            "file": "39-marketant.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "49-marketant-tkani.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "41-rostovshchik.png",
+            "role": "Ростовщик"
+          },
+          {
+            "file": "44-inozemnyy-kupets.png",
+            "role": "Иноземный купец"
+          },
+          {
+            "file": "48-yuvelir.png",
+            "role": "Ювелир"
+          }
+        ]
+      },
+      {
+        "title": "Море и гарнизон",
+        "items": [
+          {
+            "file": "06-rybak.png",
+            "role": "Рыбак"
+          },
+          {
+            "file": "07-rybachka.png",
+            "role": "Рыбачка"
+          },
+          {
+            "file": "08-soldat-garnizona.png",
+            "role": "Солдат гарнизона"
+          },
+          {
+            "file": "09-oficer-garnizona.png",
+            "role": "Офицер гарнизона"
+          },
+          {
+            "file": "10-lotsman.png",
+            "role": "Лоцман"
+          },
+          {
+            "file": "27-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "30-matros.png",
+            "role": "Матрос"
+          },
+          {
+            "file": "50-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "51-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "52-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "53-rulevoy.png",
+            "role": "Рулевой"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло и быт",
+        "items": [
+          {
+            "file": "11-plotnik-verfi.png",
+            "role": "Плотник верфи"
+          },
+          {
+            "file": "12-kabatcik.png",
+            "role": "Кабатчик"
+          },
+          {
+            "file": "13-kabatcica.png",
+            "role": "Кабатчица"
+          },
+          {
+            "file": "16-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "17-krestyanka.png",
+            "role": "Крестьянка"
+          },
+          {
+            "file": "19-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "20-bondar.png",
+            "role": "Бондарь"
+          },
+          {
+            "file": "31-pekar.png",
+            "role": "Пекарь"
+          },
+          {
+            "file": "28-krysolov.png",
+            "role": "Крысолов"
+          },
+          {
+            "file": "29-okhotnik.png",
+            "role": "Охотник"
+          }
+        ]
+      },
+      {
+        "title": "Порт и серый контур",
+        "items": [
+          {
+            "file": "21-gruzchik.png",
+            "role": "Грузчик"
+          },
+          {
+            "file": "22-kryuchnik.png",
+            "role": "Крючник"
+          },
+          {
+            "file": "23-prostitutka.png",
+            "role": "Проститутка"
+          },
+          {
+            "file": "24-vor-karmannik.png",
+            "role": "Вор-карманник"
+          },
+          {
+            "file": "25-kontrabandist.png",
+            "role": "Контрабандист"
+          },
+          {
+            "file": "26-pyanchuga.png",
+            "role": "Пьянчуга"
+          },
+          {
+            "file": "40-skupshchik-kradenogo.png",
+            "role": "Скупщик краденого"
+          }
+        ]
+      },
+      {
+        "title": "Медицина",
+        "items": [
+          {
+            "file": "35-travnik.png",
+            "role": "Травник"
+          },
+          {
+            "file": "36-lekar.png",
+            "role": "Лекарь"
+          },
+          {
+            "file": "37-khirurg.png",
+            "role": "Хирург"
+          },
+          {
+            "file": "38-tsiryulnik.png",
+            "role": "Цирюльник"
+          }
+        ]
+      },
+      {
+        "title": "Учёность и искусства",
+        "items": [
+          {
+            "file": "45-uchenyy.png",
+            "role": "Ученый"
+          },
+          {
+            "file": "46-alkhimik.png",
+            "role": "Алхимик"
+          },
+          {
+            "file": "47-khudozhnik.png",
+            "role": "Художник"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sweden",
+    "folder": "05-Shveciya",
+    "name": "Швеция",
+    "short": "Ревель",
+    "blurb": "Противник на море и в Эстляндии. Королевский сине-жёлтый цвет, ревельский контур, охота на каперов.",
+    "count": 53,
+    "groups": [
+      {
+        "title": "Власть и двор",
+        "items": [
+          {
+            "file": "01-namestnik.png",
+            "role": "Наместник"
+          },
+          {
+            "file": "02-namestnica.png",
+            "role": "Жена наместника"
+          },
+          {
+            "file": "42-dvoryanin.png",
+            "role": "Дворянин"
+          },
+          {
+            "file": "43-dvoryanka.png",
+            "role": "Дворянка"
+          },
+          {
+            "file": "14-tamozhennik.png",
+            "role": "Таможенник"
+          },
+          {
+            "file": "15-pastor.png",
+            "role": "Пастор"
+          },
+          {
+            "file": "32-sudya.png",
+            "role": "Судья"
+          },
+          {
+            "file": "33-tyuremshchik.png",
+            "role": "Тюремщик"
+          },
+          {
+            "file": "34-palach.png",
+            "role": "Палач"
+          }
+        ]
+      },
+      {
+        "title": "Город и торг",
+        "items": [
+          {
+            "file": "03-shvedskiy-kupets.png",
+            "role": "Шведский купец"
+          },
+          {
+            "file": "04-byurger.png",
+            "role": "Бюргер"
+          },
+          {
+            "file": "05-byurgersha.png",
+            "role": "Бюргерша"
+          },
+          {
+            "file": "18-faktor.png",
+            "role": "Фактор"
+          },
+          {
+            "file": "39-marketant.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "49-marketant-tkani.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "41-rostovshchik.png",
+            "role": "Ростовщик"
+          },
+          {
+            "file": "44-inozemnyy-kupets.png",
+            "role": "Иноземный купец"
+          },
+          {
+            "file": "48-yuvelir.png",
+            "role": "Ювелир"
+          }
+        ]
+      },
+      {
+        "title": "Море и гарнизон",
+        "items": [
+          {
+            "file": "06-rybak.png",
+            "role": "Рыбак"
+          },
+          {
+            "file": "07-rybachka.png",
+            "role": "Рыбачка"
+          },
+          {
+            "file": "08-soldat-garnizona.png",
+            "role": "Солдат гарнизона"
+          },
+          {
+            "file": "09-oficer-garnizona.png",
+            "role": "Офицер гарнизона"
+          },
+          {
+            "file": "10-lotsman.png",
+            "role": "Лоцман"
+          },
+          {
+            "file": "27-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "30-matros.png",
+            "role": "Матрос"
+          },
+          {
+            "file": "50-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "51-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "52-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "53-rulevoy.png",
+            "role": "Рулевой"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло и быт",
+        "items": [
+          {
+            "file": "11-plotnik-verfi.png",
+            "role": "Плотник верфи"
+          },
+          {
+            "file": "12-kabatcik.png",
+            "role": "Кабатчик"
+          },
+          {
+            "file": "13-kabatcica.png",
+            "role": "Кабатчица"
+          },
+          {
+            "file": "16-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "17-krestyanka.png",
+            "role": "Крестьянка"
+          },
+          {
+            "file": "19-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "20-bondar.png",
+            "role": "Бондарь"
+          },
+          {
+            "file": "31-pekar.png",
+            "role": "Пекарь"
+          },
+          {
+            "file": "28-krysolov.png",
+            "role": "Крысолов"
+          },
+          {
+            "file": "29-okhotnik.png",
+            "role": "Охотник"
+          }
+        ]
+      },
+      {
+        "title": "Порт и серый контур",
+        "items": [
+          {
+            "file": "21-gruzchik.png",
+            "role": "Грузчик"
+          },
+          {
+            "file": "22-kryuchnik.png",
+            "role": "Крючник"
+          },
+          {
+            "file": "23-prostitutka.png",
+            "role": "Проститутка"
+          },
+          {
+            "file": "24-vor-karmannik.png",
+            "role": "Вор-карманник"
+          },
+          {
+            "file": "25-kontrabandist.png",
+            "role": "Контрабандист"
+          },
+          {
+            "file": "26-pyanchuga.png",
+            "role": "Пьянчуга"
+          },
+          {
+            "file": "40-skupshchik-kradenogo.png",
+            "role": "Скупщик краденого"
+          }
+        ]
+      },
+      {
+        "title": "Медицина",
+        "items": [
+          {
+            "file": "35-travnik.png",
+            "role": "Травник"
+          },
+          {
+            "file": "36-lekar.png",
+            "role": "Лекарь"
+          },
+          {
+            "file": "37-khirurg.png",
+            "role": "Хирург"
+          },
+          {
+            "file": "38-tsiryulnik.png",
+            "role": "Цирюльник"
+          }
+        ]
+      },
+      {
+        "title": "Учёность и искусства",
+        "items": [
+          {
+            "file": "45-uchenyy.png",
+            "role": "Ученый"
+          },
+          {
+            "file": "46-alkhimik.png",
+            "role": "Алхимик"
+          },
+          {
+            "file": "47-khudozhnik.png",
+            "role": "Художник"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gdansk",
+    "folder": "06-Gdansk",
+    "name": "Гданьск",
+    "short": "Данциг",
+    "blurb": "Богатые караваны Речи Посполитой, ганзейский патрициат, охотничья цель эскадры и ответные конвои.",
+    "count": 70,
+    "groups": [
+      {
+        "title": "Власть и патрициат",
+        "items": [
+          {
+            "file": "01-burgomistr.png",
+            "role": "Бургомистр"
+          },
+          {
+            "file": "02-burgomistrsha.png",
+            "role": "Жена бургомистра"
+          },
+          {
+            "file": "42-dvoryanin.png",
+            "role": "Дворянин"
+          },
+          {
+            "file": "43-dvoryanka.png",
+            "role": "Дворянка"
+          },
+          {
+            "file": "14-tamozhennik.png",
+            "role": "Таможенник"
+          },
+          {
+            "file": "15-pastor.png",
+            "role": "Пастор"
+          },
+          {
+            "file": "32-sudya.png",
+            "role": "Судья"
+          },
+          {
+            "file": "33-tyuremshchik.png",
+            "role": "Тюремщик"
+          },
+          {
+            "file": "34-palach.png",
+            "role": "Палач"
+          }
+        ]
+      },
+      {
+        "title": "Город и торг",
+        "items": [
+          {
+            "file": "03-gdanskiy-kupets.png",
+            "role": "Гданьский купец"
+          },
+          {
+            "file": "04-byurger.png",
+            "role": "Бюргер"
+          },
+          {
+            "file": "05-byurgersha.png",
+            "role": "Бюргерша"
+          },
+          {
+            "file": "18-faktor.png",
+            "role": "Фактор"
+          },
+          {
+            "file": "39-marketant.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "49-kupets-yantarya.png",
+            "role": "Купец янтаря"
+          },
+          {
+            "file": "51-lotochnik.png",
+            "role": "Лоточник"
+          },
+          {
+            "file": "41-rostovshchik.png",
+            "role": "Ростовщик"
+          },
+          {
+            "file": "44-inozemnyy-kupets.png",
+            "role": "Иноземный купец"
+          },
+          {
+            "file": "48-yuvelir.png",
+            "role": "Ювелир"
+          }
+        ]
+      },
+      {
+        "title": "Море и гарнизон",
+        "items": [
+          {
+            "file": "06-rybak.png",
+            "role": "Рыбак"
+          },
+          {
+            "file": "07-rybachka.png",
+            "role": "Рыбачка"
+          },
+          {
+            "file": "08-soldat-garnizona.png",
+            "role": "Солдат гарнизона"
+          },
+          {
+            "file": "09-oficer-garnizona.png",
+            "role": "Офицер гарнизона"
+          },
+          {
+            "file": "10-lotsman.png",
+            "role": "Лоцман"
+          },
+          {
+            "file": "27-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "30-matros.png",
+            "role": "Матрос"
+          },
+          {
+            "file": "67-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "68-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "69-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "70-rulevoy.png",
+            "role": "Рулевой"
+          },
+          {
+            "file": "53-inzhener-sudostroitel.png",
+            "role": "Инженер-судостроитель"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло и быт",
+        "items": [
+          {
+            "file": "11-plotnik-verfi.png",
+            "role": "Плотник верфи"
+          },
+          {
+            "file": "12-kabatcik.png",
+            "role": "Кабатчик"
+          },
+          {
+            "file": "13-kabatcica.png",
+            "role": "Кабатчица"
+          },
+          {
+            "file": "16-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "17-krestyanka.png",
+            "role": "Крестьянка"
+          },
+          {
+            "file": "19-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "20-bondar.png",
+            "role": "Бондарь"
+          },
+          {
+            "file": "31-pekar.png",
+            "role": "Пекарь"
+          },
+          {
+            "file": "54-ambarshchik.png",
+            "role": "Амбарщик"
+          },
+          {
+            "file": "55-zagotovitel-drevesiny.png",
+            "role": "Заготовитель леса"
+          },
+          {
+            "file": "56-degtyarshchik.png",
+            "role": "Дегтярщик"
+          },
+          {
+            "file": "57-bortnik.png",
+            "role": "Бортник"
+          },
+          {
+            "file": "58-kanatchik.png",
+            "role": "Канатчик"
+          },
+          {
+            "file": "59-pivovar.png",
+            "role": "Пивовар"
+          },
+          {
+            "file": "60-kozhevennik.png",
+            "role": "Кожевенник"
+          },
+          {
+            "file": "61-portnoy.png",
+            "role": "Портной"
+          },
+          {
+            "file": "62-tkachikha.png",
+            "role": "Ткачиха"
+          },
+          {
+            "file": "28-krysolov.png",
+            "role": "Крысолов"
+          },
+          {
+            "file": "29-okhotnik.png",
+            "role": "Охотник"
+          }
+        ]
+      },
+      {
+        "title": "Порт и серый контур",
+        "items": [
+          {
+            "file": "21-gruzchik.png",
+            "role": "Грузчик"
+          },
+          {
+            "file": "22-kryuchnik.png",
+            "role": "Крючник"
+          },
+          {
+            "file": "23-prostitutka.png",
+            "role": "Проститутка"
+          },
+          {
+            "file": "24-vor-karmannik.png",
+            "role": "Вор-карманник"
+          },
+          {
+            "file": "25-kontrabandist.png",
+            "role": "Контрабандист"
+          },
+          {
+            "file": "26-pyanchuga.png",
+            "role": "Пьянчуга"
+          },
+          {
+            "file": "50-nishchiy-slepoi.png",
+            "role": "Нищий"
+          },
+          {
+            "file": "40-skupshchik-kradenogo.png",
+            "role": "Скупщик краденого"
+          }
+        ]
+      },
+      {
+        "title": "Медицина",
+        "items": [
+          {
+            "file": "35-travnik.png",
+            "role": "Травник"
+          },
+          {
+            "file": "36-lekar.png",
+            "role": "Лекарь"
+          },
+          {
+            "file": "37-khirurg.png",
+            "role": "Хирург"
+          },
+          {
+            "file": "38-tsiryulnik.png",
+            "role": "Цирюльник"
+          }
+        ]
+      },
+      {
+        "title": "Учёность и искусства",
+        "items": [
+          {
+            "file": "45-uchenyy.png",
+            "role": "Ученый"
+          },
+          {
+            "file": "46-alkhimik.png",
+            "role": "Алхимик"
+          },
+          {
+            "file": "47-khudozhnik.png",
+            "role": "Художник"
+          },
+          {
+            "file": "52-astronom.png",
+            "role": "Астроном"
+          },
+          {
+            "file": "63-izgotovitel-tserkovnoy-utvari.png",
+            "role": "Изготовитель церковной утвари"
+          },
+          {
+            "file": "64-knigopechatnik.png",
+            "role": "Книжный печатник"
+          },
+          {
+            "file": "65-perepletchik.png",
+            "role": "Переплетчик"
+          },
+          {
+            "file": "66-kartograf.png",
+            "role": "Картограф"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lubeck",
+    "folder": "07-Ganza-Lyubek",
+    "name": "Любек",
+    "short": "Ганза",
+    "blurb": "Контроль Борнхольма, торг, информация. Двойная лояльность: оборот призов и давление дворов.",
+    "count": 86,
+    "groups": [
+      {
+        "title": "Власть и патрициат",
+        "items": [
+          {
+            "file": "01-burgomistr.png",
+            "role": "Бургомистр"
+          },
+          {
+            "file": "02-burgomistrsha.png",
+            "role": "Жена бургомистра"
+          },
+          {
+            "file": "50-sovet-ottsov.png",
+            "role": "Совет отцов"
+          },
+          {
+            "file": "51-patriciat.png",
+            "role": "Патрициат"
+          },
+          {
+            "file": "52-glava-predstavitelstva.png",
+            "role": "Глава представительства"
+          },
+          {
+            "file": "42-dvoryanin.png",
+            "role": "Дворянин"
+          },
+          {
+            "file": "43-dvoryanka.png",
+            "role": "Дворянка"
+          },
+          {
+            "file": "14-tamozhennik.png",
+            "role": "Таможенник"
+          },
+          {
+            "file": "15-pastor.png",
+            "role": "Пастор"
+          },
+          {
+            "file": "32-sudya.png",
+            "role": "Судья"
+          },
+          {
+            "file": "55-torgovyy-sudya.png",
+            "role": "Торговый судья"
+          },
+          {
+            "file": "53-kaznachey.png",
+            "role": "Казначей"
+          },
+          {
+            "file": "33-tyuremshchik.png",
+            "role": "Тюремщик"
+          },
+          {
+            "file": "34-palach.png",
+            "role": "Палач"
+          }
+        ]
+      },
+      {
+        "title": "Город и торг",
+        "items": [
+          {
+            "file": "03-ganzeyskiy-kupets.png",
+            "role": "Ганзейский купец"
+          },
+          {
+            "file": "04-byurger.png",
+            "role": "Бюргер"
+          },
+          {
+            "file": "05-byurgersha.png",
+            "role": "Бюргерша"
+          },
+          {
+            "file": "18-faktor.png",
+            "role": "Фактор"
+          },
+          {
+            "file": "54-kladovshchik.png",
+            "role": "Кладовщик"
+          },
+          {
+            "file": "39-marketant.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "49-marketant-tkani.png",
+            "role": "Маркетант"
+          },
+          {
+            "file": "41-rostovshchik.png",
+            "role": "Ростовщик"
+          },
+          {
+            "file": "44-inozemnyy-kupets.png",
+            "role": "Иноземный купец"
+          },
+          {
+            "file": "48-yuvelir.png",
+            "role": "Ювелир"
+          }
+        ]
+      },
+      {
+        "title": "Купеческая лестница",
+        "items": [
+          {
+            "file": "56-glava-gildii.png",
+            "role": "Глава гильдии"
+          },
+          {
+            "file": "57-chlen-obedineniya.png",
+            "role": "Член объединения"
+          },
+          {
+            "file": "58-mladshiy-partner.png",
+            "role": "Младший партнер"
+          },
+          {
+            "file": "59-prikazchik.png",
+            "role": "Приказчик"
+          },
+          {
+            "file": "60-uchenik-kupets.png",
+            "role": "Ученик"
+          }
+        ]
+      },
+      {
+        "title": "Купеческие братства",
+        "items": [
+          {
+            "file": "61-bergenfarer.png",
+            "role": "Бергенфарер"
+          },
+          {
+            "file": "62-shonenfarer.png",
+            "role": "Шоненфарер"
+          },
+          {
+            "file": "63-novgorodfarer.png",
+            "role": "Новгородфарер"
+          },
+          {
+            "file": "64-angliyafarer.png",
+            "role": "Англияфарер"
+          },
+          {
+            "file": "65-ispaniyafarer.png",
+            "role": "Испанияфарер"
+          },
+          {
+            "file": "66-rigafarer.png",
+            "role": "Ригафарер"
+          }
+        ]
+      },
+      {
+        "title": "Гильдии по товарам",
+        "items": [
+          {
+            "file": "67-kupets-soli.png",
+            "role": "Купец соли"
+          },
+          {
+            "file": "68-kupets-zerna.png",
+            "role": "Купец зерна"
+          }
+        ]
+      },
+      {
+        "title": "Конторы Ганзы",
+        "items": [
+          {
+            "file": "69-stalnoy-dvor.png",
+            "role": "Стальной двор"
+          },
+          {
+            "file": "70-starshina-kontory.png",
+            "role": "Старшина конторы"
+          },
+          {
+            "file": "71-kontora-bryugge.png",
+            "role": "Контора Брюгге"
+          },
+          {
+            "file": "72-kontora-bergen.png",
+            "role": "Контора Берген"
+          }
+        ]
+      },
+      {
+        "title": "Цех кузнецов",
+        "items": [
+          {
+            "file": "73-starshina-kuznetsov.png",
+            "role": "Старшина кузнецов"
+          },
+          {
+            "file": "19-kuznets.png",
+            "role": "Кузнец"
+          },
+          {
+            "file": "74-uchenik-kuznets.png",
+            "role": "Ученик кузнеца"
+          }
+        ]
+      },
+      {
+        "title": "Цех портных",
+        "items": [
+          {
+            "file": "75-starshina-portnykh.png",
+            "role": "Старшина портных"
+          },
+          {
+            "file": "76-portnoy.png",
+            "role": "Портной"
+          },
+          {
+            "file": "77-uchenik-portnoy.png",
+            "role": "Ученик портного"
+          }
+        ]
+      },
+      {
+        "title": "Цех пекарей",
+        "items": [
+          {
+            "file": "78-starshina-pekarey.png",
+            "role": "Старшина пекарей"
+          },
+          {
+            "file": "31-pekar.png",
+            "role": "Пекарь"
+          },
+          {
+            "file": "79-uchenik-pekar.png",
+            "role": "Ученик пекаря"
+          }
+        ]
+      },
+      {
+        "title": "Цех сапожников",
+        "items": [
+          {
+            "file": "80-starshina-sapozhnikov.png",
+            "role": "Старшина сапожников"
+          },
+          {
+            "file": "81-sapozhnik.png",
+            "role": "Сапожник"
+          },
+          {
+            "file": "82-uchenik-sapozhnik.png",
+            "role": "Ученик сапожника"
+          }
+        ]
+      },
+      {
+        "title": "Море и гарнизон",
+        "items": [
+          {
+            "file": "06-rybak.png",
+            "role": "Рыбак"
+          },
+          {
+            "file": "07-rybachka.png",
+            "role": "Рыбачка"
+          },
+          {
+            "file": "08-soldat-garnizona.png",
+            "role": "Солдат гарнизона"
+          },
+          {
+            "file": "09-oficer-garnizona.png",
+            "role": "Офицер гарнизона"
+          },
+          {
+            "file": "10-lotsman.png",
+            "role": "Лоцман"
+          },
+          {
+            "file": "27-pushkar.png",
+            "role": "Пушкарь"
+          },
+          {
+            "file": "30-matros.png",
+            "role": "Матрос"
+          },
+          {
+            "file": "83-kapitan-korablya.png",
+            "role": "Капитан корабля"
+          },
+          {
+            "file": "84-bocman.png",
+            "role": "Боцман"
+          },
+          {
+            "file": "85-shkiper.png",
+            "role": "Шкипер"
+          },
+          {
+            "file": "86-rulevoy.png",
+            "role": "Рулевой"
+          }
+        ]
+      },
+      {
+        "title": "Ремесло и быт",
+        "items": [
+          {
+            "file": "11-plotnik-verfi.png",
+            "role": "Плотник верфи"
+          },
+          {
+            "file": "12-kabatcik.png",
+            "role": "Кабатчик"
+          },
+          {
+            "file": "13-kabatcica.png",
+            "role": "Кабатчица"
+          },
+          {
+            "file": "16-krestyanin.png",
+            "role": "Крестьянин"
+          },
+          {
+            "file": "17-krestyanka.png",
+            "role": "Крестьянка"
+          },
+          {
+            "file": "20-bondar.png",
+            "role": "Бондарь"
+          },
+          {
+            "file": "28-krysolov.png",
+            "role": "Крысолов"
+          },
+          {
+            "file": "29-okhotnik.png",
+            "role": "Охотник"
+          }
+        ]
+      },
+      {
+        "title": "Порт и серый контур",
+        "items": [
+          {
+            "file": "21-gruzchik.png",
+            "role": "Грузчик"
+          },
+          {
+            "file": "22-kryuchnik.png",
+            "role": "Крючник"
+          },
+          {
+            "file": "23-prostitutka.png",
+            "role": "Проститутка"
+          },
+          {
+            "file": "24-vor-karmannik.png",
+            "role": "Вор-карманник"
+          },
+          {
+            "file": "25-kontrabandist.png",
+            "role": "Контрабандист"
+          },
+          {
+            "file": "26-pyanchuga.png",
+            "role": "Пьянчуга"
+          },
+          {
+            "file": "40-skupshchik-kradenogo.png",
+            "role": "Скупщик краденого"
+          }
+        ]
+      },
+      {
+        "title": "Медицина",
+        "items": [
+          {
+            "file": "35-travnik.png",
+            "role": "Травник"
+          },
+          {
+            "file": "36-lekar.png",
+            "role": "Лекарь"
+          },
+          {
+            "file": "37-khirurg.png",
+            "role": "Хирург"
+          },
+          {
+            "file": "38-tsiryulnik.png",
+            "role": "Цирюльник"
+          }
+        ]
+      },
+      {
+        "title": "Учёность и искусства",
+        "items": [
+          {
+            "file": "45-uchenyy.png",
+            "role": "Ученый"
+          },
+          {
+            "file": "46-alkhimik.png",
+            "role": "Алхимик"
+          },
+          {
+            "file": "47-khudozhnik.png",
+            "role": "Художник"
+          }
+        ]
+      }
+    ]
+  }
+]

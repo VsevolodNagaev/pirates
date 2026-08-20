@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --color-oak: #1a1410;
+  --color-oak-mid: #2c2118;
+  --color-parchment: #f3ead6;
+  --color-ink: #2a241c;
+  --color-gold: #c4a35a;
+  --color-sea: #3d5c57;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(1200px 500px at 50% -10%, rgba(196, 163, 90, 0.12), transparent),
+    var(--color-oak);
+  color: var(--color-parchment);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+.prose-rules {
+  color: var(--color-ink);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.prose-rules h1 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.prose-rules h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin: 1.6rem 0 0.6rem;
+}
+
+.prose-rules h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.prose-rules p,
+.prose-rules ul,
+.prose-rules ol,
+.prose-rules blockquote,
+.prose-rules table {
+  margin: 0.7rem 0;
+}
+
+.prose-rules ul {
+  list-style: disc;
+  padding-left: 1.3rem;
+}
+
+.prose-rules ol {
+  list-style: decimal;
+  padding-left: 1.3rem;
+}
+
+.prose-rules li {
+  margin: 0.25rem 0;
+}
+
+.prose-rules a {
+  color: #6b4e16;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose-rules table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.prose-rules th,
+.prose-rules td {
+  border: 1px solid #d7c9a8;
+  padding: 0.45rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-rules th {
+  background: #e8dcc2;
+}
+
+.prose-rules blockquote {
+  border-left: 3px solid var(--color-gold);
+  padding-left: 0.9rem;
+  font-style: italic;
+  color: #4a4034;
+}
+
+.prose-rules strong {
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
